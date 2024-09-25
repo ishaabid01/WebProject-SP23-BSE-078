@@ -1,0 +1,133 @@
+.div1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+#image{
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 200p  x;
+}
+#menu{
+    padding: 10px;
+
+}
+#menu li{
+    display: inline;
+    justify-content: space-between;
+    margin: 20px;
+}
+#menu li a{
+    color: black;
+    text-decoration: solid;
+}
+#menu li a:hover{
+    color: darkblue;
+    text-decoration: underline;
+
+}
+#search-form{
+    display: inline;
+    padding: 20px;
+    
+}
+#img{
+    width: 100%;
+}
+#img1{
+    width: 66%;
+}
+
+#img2{
+    width: 33%;
+    height: 559px;
+}
+#img3{
+    width: 33%;
+}
+#img4{
+    width: 66%;
+}
+#img5{
+    width: 100%;
+}
+body{
+    margin: 0px ;
+}
+#line{
+    height: 2px;
+    text-align: center;
+    text-decoration: double;
+    font-size: 20px basset;
+}
+.link a{
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    color: #ba7a2d;
+    
+}
+#first{
+    width:25%;
+}
+#second{
+    width: 25%;
+}
+#third{
+    width: 25%;
+}
+#fourth{
+    width: 24%;
+}
+#n1{
+    font-size: 12px basset;
+    margin-left: 10%;
+    color: #262626;
+}
+#n2{
+    font-size: 6px basset;
+}
+#pr{
+    text-align: center;
+    color: dimgray;
+}
+#email{
+    text-align: center;
+}
+#search-button{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    
+}
+.div2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+#footer{
+    padding: 10px;
+}
+#footer li{
+    display: inline;
+    justify-content: space-between;
+    margin: 10px;
+}
+#footer li a{
+    color: dimgrey;
+    text-decoration: solid;
+}
+#footer li a:hover{
+    text-decoration: underline;
+}
+#last{
+    color: dimgray;
+    font-size: 10px;
+}
