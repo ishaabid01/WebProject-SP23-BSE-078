@@ -1,13 +1,42 @@
 .div1{
     width: 100%;
     display: flex;
+    padding: 0%;
     align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: antiquewhite;
     
+}
+.dropdownlist li a ,.dropdownlist1 li a ,.dropdownlist2 li a ,.dropdownlist3 li a,.dropdownlist4 li a  {
+    display: block;
+    color:black;
+    text-decoration: solid;
+    font-size: 15px;
+
+}
+.dropdown,.dropdown1,.dropdown2,.dropdown3,.dropdown4{
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .dropdownlist   ,.dropdown1:hover   .dropdownlist1 ,.dropdown2:hover .dropdownlist2,  .dropdown3.dropdown3:hover .dropdownlist3,  .dropdown4:hover .dropdownlist4 {
+display:block;
+background-color: lightgray;
+}
+.dropdownlist ,.dropdownlist1,.dropdownlist2,.dropdownlist3,.dropdownlist4{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 8px;
+  text-indent: 8px;
+  z-index: 5;
 }
 #image{
     width: 200px;
     margin-left: 100px;
-    margin-right: 200p  x;
+    margin-right: 200px;
 }
 #menu{
     padding: 10px;
@@ -21,22 +50,30 @@
 #menu li a{
     color: black;
     text-decoration: solid;
+    
+    
 }
+
 #menu li a:hover{
     color: darkblue;
     text-decoration: underline;
 
 }
-#search-form{
-    display: inline;
-    padding: 20px;
-    
+
+#search-items{
+    margin-left: 20%;
+}
+#imag{
+    width: 12%;
+    margin-left: 90px;
 }
 #img{
     width: 100%;
+    opacity: 40;
 }
 #img1{
     width: 66%;
+    opacity: 60;
 }
 
 #img2{
@@ -60,15 +97,6 @@ body{
     text-align: center;
     text-decoration: double;
     font-size: 20px basset;
-}
-.link a{
-    height: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2%;
-    color: #ba7a2d;
-    
 }
 #first{
     width:25%;
@@ -97,13 +125,24 @@ body{
 #email{
     text-align: center;
 }
+
+#input{
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#submit{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
 #search-button{
-    align-items: center;
-    justify-content: center;
     background-color: black;
     color: white;
     margin: 10px;
-    
+    display: inline;
 }
 .div2{
     width: 50%;
@@ -114,6 +153,9 @@ body{
 }
 #footer{
     padding: 10px;
+}
+#footer{
+    margin-left: 25%;
 }
 #footer li{
     display: inline;
@@ -130,4 +172,11 @@ body{
 #last{
     color: dimgray;
     font-size: 10px;
+    margin-left: 37%;
+}
+#view{
+    display: flex;
+    margin-left: 47%;
+    margin-top: 2%;
+    color: #ba7a2d;
 }
