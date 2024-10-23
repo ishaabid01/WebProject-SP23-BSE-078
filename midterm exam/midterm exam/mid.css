@@ -1,0 +1,161 @@
+body {
+    font-family: 'Your Chosen Font', sans-serif;
+    background-color: wheat;
+    color: #333;
+    line-height: 1.6;
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+    width: 50%;
+}
+
+header {
+    background-color: lightgrey;
+    color: brown;
+    padding: 1rem;
+    position: sticky;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+.project h3 {
+    font-weight: bold; /* Changed from 'bold' to 'bold' */
+    background-color: brown;
+    width: 40%;
+}
+
+.project {
+    background: whitesmoke;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.02);
+}
+
+.show-description {
+    margin-top: 0.5rem;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.description {
+    margin-top: 1rem;
+    padding: 1rem;
+    
+    border-radius: 5px;
+}
+
+footer p {
+    background-color: white;body {
+        font-family: 'Your Chosen Font', sans-serif;
+        background-color: wheat;
+        color: #333;
+        line-height: 1.6;
+        background-image: url("image1.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-right: 200px;
+        background-attachment: fixed;
+        width: 50%;
+    }
+    
+    header {
+        background-color: lightgrey;
+        color: brown;
+        padding: 1rem;
+        position: sticky;
+        top: 0; /* Ensure sticky behavior */
+        z-index: 1000; /* Keep it above other content */
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 0 1rem;
+    }
+    
+    .project h3 {
+        font-weight: bold;
+        background-color: brown;
+        width: 40%;
+        color: white; /* Make the text readable */
+    }
+    
+    .project {
+        background: whitesmoke;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        transition: transform 0.2s;
+    }
+    
+    .project:hover {
+        transform: scale(1.02);
+    }
+    
+    .show-description {
+        margin-top: 0.5rem;
+        cursor: pointer;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+    }
+    
+    .description {
+        margin-top: 1rem;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9; /* Light background for readability */
+    }
+    
+    footer p {
+        background-color: white;
+        width: 30%;
+    }
+    
+    .semester {
+        border: 1px solid transparent;
+        border-top: 2px solid black;
+        border-left: 2px solid #333;
+        border-right: 2px solid #333;
+        border-bottom: 2px solid #333;
+        padding: 1rem; /* Added padding for spacing */
+        margin: 1rem 0; /* Added margin for spacing between semesters */
+    }
+    
+    width: 30%;
+}
+
+.semester {
+    border: 1px solid transparent;
+    border-top: 2px solid black;
+    border-left: 2px solid #333;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+   
+}
