@@ -1,2 +1,0 @@
-allow to input for javascript css html
-..
