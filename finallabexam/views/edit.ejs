@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Update Item</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('/bg.jpg');
+      background-size: 100%;
+    }
+    .container {
+      background: transparent;
+      backdrop-filter: blur(8px);
+      border: 1px solid burlywood;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 500px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 10px;
+      vertical-align: top;
+    }
+    td:first-child {
+      text-align: right;
+      font-weight: bold;
+      color: #555;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+      background-color: transparent;
+    }
+    textarea {
+      resize: none;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: burlywood;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: transparent;
+      border: 1px solid burlywood;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Update Item</h1>
+    <form action="/dashboard/edit/<%= item.id %>" method="POST">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" name="name" value="<%= item.name %>"></td>
+        </tr>
+        <tr>
+          <td><label for="description">Description:</label></td>
+          <td><textarea id="description" name="description" rows="3"><%= item.description %></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="price">Price:</label></td>
+          <td><input type="String" id="price" name="price" value="<%= item.price %>"></td>
+        </tr>
+        <tr>
+          <td><label for="quantity">Quantity:</label></td>
+          <td><input type="number" id="quantity" name="quantity" value="<%= item.quantity %>" min="0"></td>
+        </tr>
+        
+      </table>
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+</body>
+</html>
